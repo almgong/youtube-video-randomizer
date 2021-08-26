@@ -1,0 +1,9 @@
+#yt-video-randomizer__menu {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  height: 50px;
+  width: 100px;
+  background-color: aquamarine;
+  z-index: 9999;
+}

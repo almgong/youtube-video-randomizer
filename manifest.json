@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Video Randomizer",
+  "description": "Play a random Youtube video currently recommended for you! This extension selects a random video that has been loaded on the current page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/**"],
+      "run_at": "document_idle",
+      "css": ["./public/css/content-script.css"],
+      "js": ["./public/js/content-script.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,34 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+}
+
+#header h3 {
+  flex-grow: 4;
+}
+
+#refresh_button {
+  height: 75%;
+}
+
+#suggestion_container {
+  text-align: center;
+  margin-bottom: 15px;
+  flex-grow: 3;
+  overflow-y: hidden;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.yt-video-randomizer__suggestion__img {
+  max-width: 250px;
+}
